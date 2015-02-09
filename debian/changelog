@@ -1,3 +1,14 @@
+nginx (1.4.6-1ubuntu3.2) trusty-proposed; urgency=medium
+
+  * d/modules/nginx-http-push: Apply upstream bugfix. (LP: #1216817)
+    * src/ngx_http_push_module_setup.c: Modify push module code with
+      upstream changes to fix an issue with initialization when using
+      `fastcgi_cache` or `proxy_cache`.
+    * tests/nginx-cachemanager.conf: (new file) Include upstream change
+      of adding an nginx-cachemanager.conf file to the tests.
+
+ -- Thomas Ward <teward@ubuntu.com>  Mon, 09 Feb 2015 12:08:50 -0500
+
 nginx (1.4.6-1ubuntu3.1) trusty-security; urgency=medium
 
   * SECURITY UPDATE: incorrect cached SSL session reuse (LP: #1370478)
