@@ -128,7 +128,7 @@ Description: nginx web/proxy server (core version) - debugging symbols
 
 Package: nginx-full
 Architecture: any
-Depends: nginx-common (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: nginx-common (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}, libldap2-dev
 Breaks: nginx (<< 1.4.5-1)
 Provides: httpd, httpd-cgi, nginx
 Conflicts: nginx-extras, nginx-light, nginx-naxsi, nginx-core
@@ -154,7 +154,7 @@ Description: nginx web/proxy server (standard version)
  MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
  .
  THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, HTTP Substitution Filter,
- Upstream Fair Queue.
+ Upstream Fair Queue, Auth LDAP.
 
 Package: nginx-full-dbg
 Architecture: any
