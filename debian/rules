@@ -98,6 +98,7 @@ config.status.full: config.env.full
 	    --add-module=$(MODULESDIR)/nginx-echo \
 	    --add-module=$(MODULESDIR)/nginx-upstream-fair \
 	    --add-module=$(MODULESDIR)/ngx_http_substitutions_filter_module \
+	    --add-module=$(MODULESDIR)/nginx-auth-ldap \
             >$@
 	touch $@
 
