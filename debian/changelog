@@ -1,3 +1,10 @@
+nginx (1.4.6-1ubuntu3.3) stable; urgency=medium
+
+  * Add the nginx-auth-ldap module
+  * Add depends
+
+ -- Jean-Baptiste Quenot <jbq@caraldi.com>  Wed, 01 Apr 2015 14:37:16 +0200
+
 nginx (1.4.6-1ubuntu3.2) trusty-proposed; urgency=medium
 
   * d/modules/nginx-http-push: Apply upstream bugfix. (LP: #1216817)
