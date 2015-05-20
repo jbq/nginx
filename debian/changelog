@@ -1,3 +1,9 @@
+nginx (1.4.6-1ubuntu3.4) stable; urgency=medium
+
+  * Update nginx-auth-ldap
+
+ -- Jean-Baptiste Quenot <jbq@caraldi.com>  Wed, 20 May 2015 18:55:52 +0200
+
 nginx (1.4.6-1ubuntu3.3) stable; urgency=medium
 
   * Add the nginx-auth-ldap module
